@@ -1,0 +1,25 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    box-shadow: var(--shadow-2);
+}
+article h3 {
+    font-family: 'Source Serif 4', serif;
+    text-align: center;
+    color: rgb(42, 65, 68);
+}
+article p {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+article small em {
+    margin-left: 4%;
+}
+article small strong {
+    margin-left: 4%;
+}

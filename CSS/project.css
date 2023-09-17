@@ -1,0 +1,96 @@
+body {
+    font: 16px sans-serif;
+    background-color: #f0f0f0;
+    color: var(--sl-color-neutral-900);
+    padding: 1rem;
+}
+nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#logo {
+    font-family: 'Sacramento', cursive;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: left;
+}
+#navul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+#navul li{
+    margin-inline-start: 40px;
+}
+#navul li a {
+    color: black;
+   /* Yazı rengini siyah yapar */
+    text-decoration: none;
+   /* Altındaki çizgiyi kaldırır */
+}
+#navul li a:hover {
+    color: darkgray;
+   /* Yazı rengini siyah yapar */
+    text-decoration: underline;
+   /* Altındaki çizgiyi kaldırır */
+}
+/* sl-tab-group {
+    display: grid;
+}
+sl-carousel-contanier {
+    inline-size: 50%;
+    block-size: 50%;
+}
+*/
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    box-shadow: var(--shadow-2);
+}
+.card {
+    background: var(--surface-3);
+    border: 1px solid var(--surface-1);
+    padding: var(--size-4);
+    border-radius: var(--radius-3);
+    box-shadow: var(--shadow-2);
+    margin: 1%;
+}
+.card > h5 {
+    line-height: var(--font-lineheight-1);
+}
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-bottom: 4px solid #fdb347;
+}
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    background-color: #fff;
+}
+.gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: var(--shadow-2);
+}
+.gallery::after {
+    content: "";
+    width: 350px;
+}
