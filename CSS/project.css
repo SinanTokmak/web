@@ -8,6 +8,8 @@ nav {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+
 #logo {
     font-family: 'Sacramento', cursive;
     display: grid;
@@ -35,14 +37,7 @@ nav {
     text-decoration: underline;
    /* Altındaki çizgiyi kaldırır */
 }
-/* sl-tab-group {
-    display: grid;
-}
-sl-carousel-contanier {
-    inline-size: 50%;
-    block-size: 50%;
-}
-*/
+
 main {
     display: flex;
     justify-content: center;

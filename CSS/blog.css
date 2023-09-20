@@ -23,3 +23,8 @@ article small em {
 article small strong {
     margin-left: 4%;
 }
+
+.baslık {
+    display: flex;
+    justify-content: center;
+}
