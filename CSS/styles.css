@@ -19,7 +19,7 @@ body {
 nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-}
+} 
 
 #logo {
   font-family: 'Sacramento', cursive;
@@ -36,12 +36,15 @@ nav {
 }
 
 #navul li{
-  margin-inline-start: 40px;
+  margin-inline-start: 30px;
 }
 
 #navul li a {
+  display: flex;
+  justify-content: center;
   color: black;
   text-decoration: none;
+  margin-top: 12px;
 }
 
 #navul li a:hover {
